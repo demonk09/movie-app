@@ -4,7 +4,7 @@ import "./Home.css"
 function Home() {
   let a=["https://i.postimg.cc/C16JCdtD/pexels-photo-1781710.jpg","https://i.postimg.cc/7ZmBPBVm/pexels-photo-1045298.jpg",
   "https://i.postimg.cc/FK07g6Bx/pexels-photo-3810141.jpg","https://i.postimg.cc/DZBsLDSM/pexels-photo-1090972.jpg",
-  "https://i.postimg.cc/5yfJd7pb/pexels-photo-2457317.jpg","https://i.postimg.cc/q7ZQdzLR/pexels-photo-4239886.jpg"]
+  "https://i.postimg.cc/5yfJd7pb/pexels-photo-2457317.jpg","https://i.postimg.cc/jdKf0YDp/pexels-photo-4604195.jpg"]
 
   let [i,setI]=useState(0)
   let fun=()=>{
