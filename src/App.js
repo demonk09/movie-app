@@ -8,6 +8,7 @@ import Foot from "./components/Foot"
 import Home from "./components/Home"
 import Reg from "./components/Reg"
 import Product from "./components/Product"
+import Your from "./components/Your";
 
 export default function App() {
   return (
@@ -16,8 +17,8 @@ export default function App() {
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/pro" element={<Product/>}/>
+        <Route path="/login" element={<Your/>}/>
+        <Route path="/pro" element={<Login/>}/>
         <Route path="/reg" element={<Reg/>}/>
     </Routes>
     
