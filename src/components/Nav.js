@@ -5,8 +5,9 @@ import "./Nav.css"
 
 export default function Nav() {
   return (
+  
     <nav>
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/about">ABOUT</Link>
         <Link to="/login">LOGIN</Link>
         <Link to="/reg">REGISTER</Link>

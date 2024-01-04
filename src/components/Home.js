@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link,Outlet } from 'react-router-dom'
 import "./Home.css"
 
 function Home() {
@@ -9,9 +10,16 @@ function Home() {
   "https://i.postimg.cc/5yfJd7pb/pexels-photo-2457317.jpg",
   "https://i.postimg.cc/jdKf0YDp/pexels-photo-4604195.jpg"]
 
+  let b=['MAYUR','Kamble','मयूर','कांबळे','మయూర్']
+
   let [i,setI]=useState(0)
+  let [j,setJ]=useState(0)
   let fun=()=>{
     setI((i)=>(i+1)%6)
+    
+  }
+  let fun2=()=>{
+    setJ((j)=>(j+1)%5)
   }
 
     const backgroundImageUrl =`url(${a[i]})`;
@@ -28,10 +36,19 @@ function Home() {
     return ()=>clearInterval(iid)
   },[])
   
-  return (<>
-    <div className="con"><h1 style={styles}>
+  useEffect(()=>{
+    let iid=setInterval(fun2,500)
+    return ()=>clearInterval(iid)
+  },[])
 
-    मयूर</h1></div>
+  
+  return (<>
+
+
+
+    <div className="con">
+      <h1 style={styles}>{b[j]}</h1>
+      </div>
    
     </>
   )
