@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.412fdff1.css",
+    "main.js": "/movie-app/static/js/main.3ddef54e.js",
+    "static/js/787.b55ca069.chunk.js": "/movie-app/static/js/787.b55ca069.chunk.js",
+    "static/media/Shivaji01.ttf": "/movie-app/static/media/Shivaji01.58c50cd0b18652d268a8.ttf",
+    "index.html": "/movie-app/index.html",
+    "main.412fdff1.css.map": "/movie-app/static/css/main.412fdff1.css.map",
+    "main.3ddef54e.js.map": "/movie-app/static/js/main.3ddef54e.js.map",
+    "787.b55ca069.chunk.js.map": "/movie-app/static/js/787.b55ca069.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412fdff1.css",
+    "static/js/main.3ddef54e.js"
+  ]
+}
