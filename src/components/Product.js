@@ -73,7 +73,7 @@ export default function Product() {
           />
 
           <button onClick={handleSearch} >Search</button>
-
+          
         </form>
       </div>
       {

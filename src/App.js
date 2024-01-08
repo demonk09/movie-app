@@ -16,7 +16,7 @@ export default function App() {
     <BrowserRouter>
       <Nav />
       <Routes>
-        <Route path="/home" element={<Home />}/>
+        <Route path="/" element={<Home />}/>
          
 
         <Route path="/about" element={<About />} >
@@ -29,6 +29,7 @@ export default function App() {
         <Route path="/login" element={<Your />} />
         <Route path="/pro" element={<Product />} />
         <Route path="/reg" element={<Reg />} />
+        <Route path="*" element={<Home />}/>
       </Routes>
 
       <Foot />
